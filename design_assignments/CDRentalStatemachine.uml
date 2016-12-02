@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lPvfELbWEeai-tRiYPxDDg" name="RootElement">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_lQYYQLbWEeai-tRiYPxDDg" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_lRJ0ULbWEeai-tRiYPxDDg" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_CFo24LbYEeai-tRiYPxDDg" source="_CZIQELbXEeai-tRiYPxDDg" target="_HQ2M8LbXEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s2cDULbZEeaxC-9m0X8CTw" name="reservation" source="_HQ2M8LbXEeai-tRiYPxDDg" target="_GRfMQLbYEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5pna4LbZEeaxC-9m0X8CTw" name="CustomerPickUpCd [ReservationListEmpty]" source="_GRfMQLbYEeai-tRiYPxDDg" target="_GkoKsLbYEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-zdCgLbZEeaxC-9m0X8CTw" name="ReturnCD" source="_GkoKsLbYEeai-tRiYPxDDg" target="_HQ2M8LbXEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_MRi_ULbaEeaxC-9m0X8CTw" name="noPickup" source="_GRfMQLbYEeai-tRiYPxDDg" target="_HQ2M8LbXEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_v6aVMLbaEeaxC-9m0X8CTw" name="RentNoReservation" source="_HQ2M8LbXEeai-tRiYPxDDg" target="_GkoKsLbYEeai-tRiYPxDDg"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XUdcwLiTEeaA_sSBHIjjGw" name="newReservation" source="_GkoKsLbYEeai-tRiYPxDDg" target="_S2BikLiTEeaA_sSBHIjjGw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_c0Mb4LiTEeaA_sSBHIjjGw" name="[CDstillReserved]" source="_GRfMQLbYEeai-tRiYPxDDg" target="_S2BikLiTEeaA_sSBHIjjGw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mQbFwLiTEeaA_sSBHIjjGw" name="newReservation" source="_S2BikLiTEeaA_sSBHIjjGw" target="_S2BikLiTEeaA_sSBHIjjGw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_pG6xwLiTEeaA_sSBHIjjGw" name="newReservation" source="_GRfMQLbYEeai-tRiYPxDDg" target="_GRfMQLbYEeai-tRiYPxDDg"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_CZIQELbXEeai-tRiYPxDDg" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_HQ2M8LbXEeai-tRiYPxDDg" name="InLibrary"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GRfMQLbYEeai-tRiYPxDDg" name="Reserved"/>
+      <subvertex xmi:type="uml:State" xmi:id="_GkoKsLbYEeai-tRiYPxDDg" name="Rented"/>
+      <subvertex xmi:type="uml:State" xmi:id="_S2BikLiTEeaA_sSBHIjjGw" name="RentedAndReserved"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ORyDoLbYEeai-tRiYPxDDg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OR1G8LbYEeai-tRiYPxDDg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
