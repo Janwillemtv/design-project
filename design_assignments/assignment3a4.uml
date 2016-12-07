@@ -4,26 +4,28 @@
     <region xmi:type="uml:Region" xmi:id="_J9WaALbYEeasNKYbptjLuw" name="Region1">
       <transition xmi:type="uml:Transition" xmi:id="_OVUqYLbZEeasNKYbptjLuw" name="Rent to Customer" source="_Ntd1oLbYEeasNKYbptjLuw" target="_WO3O8LbYEeasNKYbptjLuw"/>
       <transition xmi:type="uml:Transition" xmi:id="_VLIroLbZEeasNKYbptjLuw" name="Reserved by Customer" source="_Ntd1oLbYEeasNKYbptjLuw" target="_UUz9ELbYEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_bRKOsLbZEeasNKYbptjLuw" name="Rent to cusomer [reserved by customer]" source="_TsmwwLbcEeasNKYbptjLuw" target="_WO3O8LbYEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bRKOsLbZEeasNKYbptjLuw" name="Rent to cusomer [reserved by customer]" source="_eS35ALiWEeaQd_qF_b3AvQ" target="_WO3O8LbYEeasNKYbptjLuw"/>
       <transition xmi:type="uml:Transition" xmi:id="_mqp2gLbZEeasNKYbptjLuw" name="Returned by Customer" source="_WO3O8LbYEeasNKYbptjLuw" target="_Ntd1oLbYEeasNKYbptjLuw"/>
       <transition xmi:type="uml:Transition" xmi:id="_uzQ8YLbZEeasNKYbptjLuw" source="_s9Zm8LbZEeasNKYbptjLuw" target="_Ntd1oLbYEeasNKYbptjLuw"/>
       <transition xmi:type="uml:Transition" xmi:id="_6ELP8LbZEeasNKYbptjLuw" name="Reservation Cancelled" source="_UUz9ELbYEeasNKYbptjLuw" target="_Ntd1oLbYEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_umF7sLbcEeasNKYbptjLuw" name="set apart by employee" source="_UUz9ELbYEeasNKYbptjLuw" target="_TsmwwLbcEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_UH0QoLbdEeasNKYbptjLuw" name="returned by Customer1 [reserved by Customer2]" source="_WO3O8LbYEeasNKYbptjLuw" target="_UUz9ELbYEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_urzFoLbdEeasNKYbptjLuw" name="reservation Cancelled" source="_TsmwwLbcEeasNKYbptjLuw" target="_Ntd1oLbYEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_zyR3QLbdEeasNKYbptjLuw" name="reservation cancelled and reserved by other customer" source="_TsmwwLbcEeasNKYbptjLuw" target="_TsmwwLbcEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_umF7sLbcEeasNKYbptjLuw" name="set apart by employee" source="_UUz9ELbYEeasNKYbptjLuw" target="_eS35ALiWEeaQd_qF_b3AvQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_urzFoLbdEeasNKYbptjLuw" name="reservation Cancelled" source="_eS35ALiWEeaQd_qF_b3AvQ" target="_TsmwwLbcEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ecDVELiUEeaQd_qF_b3AvQ" name="new reservation" source="_WO3O8LbYEeasNKYbptjLuw" target="_Og78MLiUEeaQd_qF_b3AvQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dsGpYLiVEeaQd_qF_b3AvQ" name="new reservation" source="_UUz9ELbYEeasNKYbptjLuw" target="_UUz9ELbYEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hy8i8LiVEeaQd_qF_b3AvQ" name="new reservation" source="_UUz9ELbYEeasNKYbptjLuw" target="_Og78MLiUEeaQd_qF_b3AvQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lWilgLiVEeaQd_qF_b3AvQ" name="new reservation" source="_Og78MLiUEeaQd_qF_b3AvQ" target="_Og78MLiUEeaQd_qF_b3AvQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qM73QLiWEeaQd_qF_b3AvQ" name="returned by employee" source="_TsmwwLbcEeasNKYbptjLuw" target="_Ntd1oLbYEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s3eK4LiWEeaQd_qF_b3AvQ" name="new reservation" source="_TsmwwLbcEeasNKYbptjLuw" target="_eS35ALiWEeaQd_qF_b3AvQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wJkNwLiWEeaQd_qF_b3AvQ" name="returned by customer" source="_Og78MLiUEeaQd_qF_b3AvQ" target="_UUz9ELbYEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5hzIcLiWEeaQd_qF_b3AvQ" name="returned by customer and reservation cancelled" source="_Og78MLiUEeaQd_qF_b3AvQ" target="_Ntd1oLbYEeasNKYbptjLuw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CfAUALiXEeaQd_qF_b3AvQ" name="new reservation" source="_eS35ALiWEeaQd_qF_b3AvQ" target="_eS35ALiWEeaQd_qF_b3AvQ"/>
       <subvertex xmi:type="uml:State" xmi:id="_Ntd1oLbYEeasNKYbptjLuw" name="In Library"/>
       <subvertex xmi:type="uml:State" xmi:id="_UUz9ELbYEeasNKYbptjLuw" name="Reserved"/>
       <subvertex xmi:type="uml:State" xmi:id="_WO3O8LbYEeasNKYbptjLuw" name="Rented"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_s9Zm8LbZEeasNKYbptjLuw" name=""/>
       <subvertex xmi:type="uml:State" xmi:id="_TsmwwLbcEeasNKYbptjLuw" name="set apart"/>
-    </region>
-    <region xmi:type="uml:Region" xmi:id="_554SMLbeEeasNKYbptjLuw" name="Region2">
-      <transition xmi:type="uml:Transition" xmi:id="_JTqfoLbfEeasNKYbptjLuw" source="_7mBD4LbeEeasNKYbptjLuw" target="_8a-9ALbeEeasNKYbptjLuw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_KOJK4LbfEeasNKYbptjLuw" name="after 3 months" source="_8a-9ALbeEeasNKYbptjLuw" target="_96CU8LbeEeasNKYbptjLuw"/>
-      <subvertex xmi:type="uml:Pseudostate" xmi:id="_7mBD4LbeEeasNKYbptjLuw" name=""/>
-      <subvertex xmi:type="uml:State" xmi:id="_8a-9ALbeEeasNKYbptjLuw" name="new"/>
-      <subvertex xmi:type="uml:State" xmi:id="_96CU8LbeEeasNKYbptjLuw" name="not new"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Og78MLiUEeaQd_qF_b3AvQ" name="Reserved and Rented"/>
+      <subvertex xmi:type="uml:State" xmi:id="_eS35ALiWEeaQd_qF_b3AvQ" name="set apart and reserved"/>
     </region>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_RTuxsLbYEeasNKYbptjLuw">
