@@ -2,7 +2,7 @@
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_J9ZdULbYEeasNKYbptjLuw" type="PapyrusUMLStateMachineDiagram" name="StateMachine Diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_J9ZdUbbYEeasNKYbptjLuw" type="StateMachine_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_J9ZdUrbYEeasNKYbptjLuw" type="StateMachine_NameLabel">
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9ZdU7bYEeasNKYbptjLuw" width="719" height="16"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9ZdU7bYEeasNKYbptjLuw" width="719" height="19"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_J9ZdVLbYEeasNKYbptjLuw" type="StateMachine_RegionCompartment">
       <children xmi:type="notation:Shape" xmi:id="_J9aEYLbYEeasNKYbptjLuw" type="Region_Shape">
@@ -90,7 +90,7 @@
         <element xmi:type="uml:Region" href="assignment3a.uml#_J9WaALbYEeasNKYbptjLuw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9bShLbYEeasNKYbptjLuw" width="719" height="440"/>
       </children>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9bShbbYEeasNKYbptjLuw" y="16" width="719" height="449"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9bShbbYEeasNKYbptjLuw" y="19" width="719" height="446"/>
     </children>
     <element xmi:type="uml:StateMachine" href="assignment3a.uml#_J801kLbYEeasNKYbptjLuw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9bShrbYEeasNKYbptjLuw" x="30" y="30" width="719" height="465"/>
