@@ -207,25 +207,6 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u0Gp4LbZEeasNKYbptjLuw" id="(0.35,0.9)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u0HQ8LbZEeasNKYbptjLuw" id="(0.48717948717948717,0.0)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_6EbuoLbZEeasNKYbptjLuw" type="Transition_Edge" source="_UVLwgLbYEeasNKYbptjLuw" target="_NtnmoLbYEeasNKYbptjLuw">
-    <children xmi:type="notation:DecorationNode" xmi:id="_6Ebuo7bZEeasNKYbptjLuw" type="Transition_NameLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_eKivQLbcEeasNKYbptjLuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_6EbupLbZEeasNKYbptjLuw" x="57" y="5"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6EbupbbZEeasNKYbptjLuw" type="Transition_GuardLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_eKym4LbcEeasNKYbptjLuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_6EbuprbZEeasNKYbptjLuw"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_6Ebup7bZEeasNKYbptjLuw" type="Transition_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_eLE6wLbcEeasNKYbptjLuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_6EbuqLbZEeasNKYbptjLuw" x="-1" y="58"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_6EbuobbZEeasNKYbptjLuw"/>
-    <element xmi:type="uml:Transition" href="assignment3a.uml#_6ELP8LbZEeasNKYbptjLuw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6EbuorbZEeasNKYbptjLuw" points="[469, 209, -643984, -643984]$[392, 127, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6FGdALbZEeasNKYbptjLuw" id="(0.14925373134328357,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6FGdAbbZEeasNKYbptjLuw" id="(0.6666666666666666,1.0)"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_umXogLbcEeasNKYbptjLuw" type="Transition_Edge" source="_UVLwgLbYEeasNKYbptjLuw" target="_eTdu4LiWEeaQd_qF_b3AvQ">
     <children xmi:type="notation:DecorationNode" xmi:id="_umYPkLbcEeasNKYbptjLuw" type="Transition_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_gKzhYLbdEeasNKYbptjLuw" name="IS_UPDATED_POSITION" booleanValue="true"/>
