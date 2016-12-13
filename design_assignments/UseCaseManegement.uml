@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EGhgYMEnEeaxWthTkCXynA" name="RootElement">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyVdgMEnEeaxWthTkCXynA" name="verify ticket">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EyVdgcEnEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWEkMEnEeaxWthTkCXynA" memberEnd="_EyWEk8EnEeaxWthTkCXynA _EyWElMEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWEkcEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWEksEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWEk8EnEeaxWthTkCXynA" name="register arrival" type="_EyWrqsEnEeaxWthTkCXynA" association="_EyWEkMEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWElMEnEeaxWthTkCXynA" name="security gueard" type="_EyWru8EnEeaxWthTkCXynA" association="_EyWEkMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWElcEnEeaxWthTkCXynA" name="request exit">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EyWElsEnEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_EyWEl8EnEeaxWthTkCXynA" addition="_EyVdgMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWEmMEnEeaxWthTkCXynA" name="request entrance with card">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EyWEmcEnEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWEocEnEeaxWthTkCXynA" name="register leave"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWroMEnEeaxWthTkCXynA" memberEnd="_EyWro8EnEeaxWthTkCXynA _EyWrpMEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrocEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrosEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWro8EnEeaxWthTkCXynA" name="register breakdown" type="_EyXSsMEnEeaxWthTkCXynA" association="_EyWroMEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrpMEnEeaxWthTkCXynA" name="maintanence officer" type="_EyXSzcEnEeaxWthTkCXynA" association="_EyWroMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWrpcEnEeaxWthTkCXynA" memberEnd="_EyWrqMEnEeaxWthTkCXynA _EyWrqcEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrpsEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrp8EnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrqMEnEeaxWthTkCXynA" name="register leave" type="_EyWEocEnEeaxWthTkCXynA" association="_EyWrpcEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrqcEnEeaxWthTkCXynA" name="security gueard" type="_EyWru8EnEeaxWthTkCXynA" association="_EyWrpcEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWrqsEnEeaxWthTkCXynA" name="register arrival"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWrq8EnEeaxWthTkCXynA" memberEnd="_EyWrrsEnEeaxWthTkCXynA _EyWrr8EnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrrMEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrrcEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrrsEnEeaxWthTkCXynA" name="request exit" type="_EyWElcEnEeaxWthTkCXynA" association="_EyWrq8EnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrr8EnEeaxWthTkCXynA" name="security gueard" type="_EyWru8EnEeaxWthTkCXynA" association="_EyWrq8EnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWrsMEnEeaxWthTkCXynA" memberEnd="_EyWrs8EnEeaxWthTkCXynA _EyWrtMEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrscEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrssEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrs8EnEeaxWthTkCXynA" name="register breakdown" type="_EyXSsMEnEeaxWthTkCXynA" association="_EyWrsMEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrtMEnEeaxWthTkCXynA" name="attendent" type="_EyXSvcEnEeaxWthTkCXynA" association="_EyWrsMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EyWru8EnEeaxWthTkCXynA" name="Security Gueard"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyWrvMEnEeaxWthTkCXynA" memberEnd="_EyWrv8EnEeaxWthTkCXynA _EyWrwMEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrvcEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrvsEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrv8EnEeaxWthTkCXynA" name="request entrance with card" type="_EyWEmMEnEeaxWthTkCXynA" association="_EyWrvMEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrwMEnEeaxWthTkCXynA" name="security gueard" type="_EyWru8EnEeaxWthTkCXynA" association="_EyWrvMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXSsMEnEeaxWthTkCXynA" name="register breakdown"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXStsEnEeaxWthTkCXynA" name="register fix">
+    <include xmi:type="uml:Include" xmi:id="_EyXSt8EnEeaxWthTkCXynA" addition="_EyXSsMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSvcEnEeaxWthTkCXynA" name="Attendent"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSzcEnEeaxWthTkCXynA" name="Maintanence Officer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXSzsEnEeaxWthTkCXynA" name="verify availible spaces">
+    <include xmi:type="uml:Include" xmi:id="_EyXS0MEnEeaxWthTkCXynA" addition="_EyWEmMEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EyX5xcEnEeaxWthTkCXynA" memberEnd="_EyX5yMEnEeaxWthTkCXynA _EyX5ycEnEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyX5xsEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyX5x8EnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyX5yMEnEeaxWthTkCXynA" name="register fix" type="_EyXStsEnEeaxWthTkCXynA" association="_EyX5xcEnEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EyX5ycEnEeaxWthTkCXynA" name="maintanence officer" type="_EyXSzcEnEeaxWthTkCXynA" association="_EyX5xcEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyX5ysEnEeaxWthTkCXynA" name="request help">
+    <extend xmi:type="uml:Extend" xmi:id="_EyX5zMEnEeaxWthTkCXynA" extendedCase="_EyVdgMEnEeaxWthTkCXynA" extensionLocation="_EyVdgcEnEeaxWthTkCXynA"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EyX5zcEnEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyX5z8EnEeaxWthTkCXynA" name="Control barrier manually">
+    <extend xmi:type="uml:Extend" xmi:id="_EyX50cEnEeaxWthTkCXynA" extendedCase="_EyX5ysEnEeaxWthTkCXynA" extensionLocation="_EyX5zcEnEeaxWthTkCXynA"/>
+  </packagedElement>
+</uml:Model>
