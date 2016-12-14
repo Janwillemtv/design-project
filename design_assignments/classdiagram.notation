@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jmuSYMEUEeaniuUHuIhCbw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_k-Yo4MEUEeaniuUHuIhCbw" type="Class_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oaBd4MIHEea9tZcgUuiSPA" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oaBd4cIHEea9tZcgUuiSPA" key="canonical" value="true"/>
+    </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_k-bFIMEUEeaniuUHuIhCbw" type="Class_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_k-bFIcEUEeaniuUHuIhCbw" type="Class_FloatingNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_k-bsMMEUEeaniuUHuIhCbw" y="5"/>
@@ -8,6 +11,7 @@
     <children xmi:type="notation:BasicCompartment" xmi:id="_k-f9oMEUEeaniuUHuIhCbw" type="Class_AttributeCompartment">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mZfU8MEUEeaniuUHuIhCbw" source="PapyrusCSSForceValue">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mZfU8cEUEeaniuUHuIhCbw" key="collapsed" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_obSpMMIHEea9tZcgUuiSPA" key="mutable" value="true"/>
       </eAnnotations>
       <styles xmi:type="notation:TitleStyle" xmi:id="_k-f9ocEUEeaniuUHuIhCbw"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_k-f9osEUEeaniuUHuIhCbw"/>
@@ -26,6 +30,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_k-f9rcEUEeaniuUHuIhCbw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k-f9rsEUEeaniuUHuIhCbw"/>
     </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_oaAPwMIHEea9tZcgUuiSPA"/>
     <element xmi:type="uml:Class" href="classdiagram.uml#_k-OQ0MEUEeaniuUHuIhCbw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k-Yo4cEUEeaniuUHuIhCbw" x="190" y="87"/>
   </children>
@@ -111,11 +116,24 @@
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dn9YccEVEeaniuUHuIhCbw" x="188" y="589"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_gJPpcMEVEeaniuUHuIhCbw" type="Class_Shape">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cjRc4MIIEea9tZcgUuiSPA" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cjRc4cIIEea9tZcgUuiSPA" key="canonical" value="true"/>
+    </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_gJQQgMEVEeaniuUHuIhCbw" type="Class_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_gJQQgcEVEeaniuUHuIhCbw" type="Class_FloatingNameLabel">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_gJQQgsEVEeaniuUHuIhCbw" y="5"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_gJQQg8EVEeaniuUHuIhCbw" type="Class_AttributeCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ckchkMIIEea9tZcgUuiSPA" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ckchkcIIEea9tZcgUuiSPA" key="mutable" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_cjUgMMIIEea9tZcgUuiSPA" type="Property_ClassAttributeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ckdIoMIIEea9tZcgUuiSPA" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ckdIocIIEea9tZcgUuiSPA" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="classdiagram.uml#_bng_QMIIEea9tZcgUuiSPA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cjUgMcIIEea9tZcgUuiSPA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_gJQQhMEVEeaniuUHuIhCbw"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_gJQQhcEVEeaniuUHuIhCbw"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_gJQQhsEVEeaniuUHuIhCbw"/>
@@ -133,6 +151,7 @@
       <styles xmi:type="notation:FilteringStyle" xmi:id="_gJQ3mMEVEeaniuUHuIhCbw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gJQ3mcEVEeaniuUHuIhCbw"/>
     </children>
+    <styles xmi:type="notation:CanonicalStyle" xmi:id="_cjQ10MIIEea9tZcgUuiSPA"/>
     <element xmi:type="uml:Class" href="classdiagram.uml#_gJN0QMEVEeaniuUHuIhCbw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gJPpccEVEeaniuUHuIhCbw" x="187" y="775"/>
   </children>
