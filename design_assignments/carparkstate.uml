@@ -6,7 +6,7 @@
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_b3TuoMOQEeaTSLzK4yPX3Q" name="CarPark">
     <region xmi:type="uml:Region" xmi:id="_b3ps4MOQEeaTSLzK4yPX3Q" name="Region1">
       <transition xmi:type="uml:Transition" xmi:id="_XbXSUMOREeaTSLzK4yPX3Q" source="_V1Nz4MOREeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
-      <transition xmi:type="uml:Transition" xmi:id="_YTEWYMOREeaTSLzK4yPX3Q" name="[OutOfPublicCapacity]" guard="_698aAMOREeaTSLzK4yPX3Q" kind="local" source="_egzgcMOQEeaTSLzK4yPX3Q" target="_jrpNoMOQEeaTSLzK4yPX3Q">
+      <transition xmi:type="uml:Transition" xmi:id="_YTEWYMOREeaTSLzK4yPX3Q" name="OutOfPublicCapacity" guard="_698aAMOREeaTSLzK4yPX3Q" kind="local" source="_egzgcMOQEeaTSLzK4yPX3Q" target="_jrpNoMOQEeaTSLzK4yPX3Q">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_698aAMOREeaTSLzK4yPX3Q" name="NoFreeSpots"/>
       </transition>
       <transition xmi:type="uml:Transition" xmi:id="_k61vMMOREeaTSLzK4yPX3Q" name="[weekend]" source="_egzgcMOQEeaTSLzK4yPX3Q" target="_mA2xgMOQEeaTSLzK4yPX3Q"/>
@@ -14,8 +14,8 @@
       <transition xmi:type="uml:Transition" xmi:id="_aRPd0MOSEeaTSLzK4yPX3Q" name="OutOfCapacity" source="_jrpNoMOQEeaTSLzK4yPX3Q" target="_oycIUMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_guB7EMOSEeaTSLzK4yPX3Q" name="OutOfCapacity" source="_mA2xgMOQEeaTSLzK4yPX3Q" target="_oycIUMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_l_spAMOSEeaTSLzK4yPX3Q" name="FreeCapacity [weekend]" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_mA2xgMOQEeaTSLzK4yPX3Q"/>
-      <transition xmi:type="uml:Transition" xmi:id="_z_IYUMOSEeaTSLzK4yPX3Q" name="FreeSeasonCapacity" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_jrpNoMOQEeaTSLzK4yPX3Q"/>
-      <transition xmi:type="uml:Transition" xmi:id="_Gt7ZwMOTEeaTSLzK4yPX3Q" name="FreePublicCapacity" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_z_IYUMOSEeaTSLzK4yPX3Q" name="FreeSeasonCapacity [weekday]" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_jrpNoMOQEeaTSLzK4yPX3Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Gt7ZwMOTEeaTSLzK4yPX3Q" name="FreePublicCapacity [weekday]" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_NukyAMOTEeaTSLzK4yPX3Q" name="OutOfCapacity" source="_egzgcMOQEeaTSLzK4yPX3Q" target="_oycIUMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_9D5H8MOTEeaTSLzK4yPX3Q" name="FreePublicCapacity" source="_jrpNoMOQEeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
       <subvertex xmi:type="uml:State" xmi:id="_egzgcMOQEeaTSLzK4yPX3Q" name="Freespace"/>
