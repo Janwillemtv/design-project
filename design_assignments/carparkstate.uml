@@ -17,6 +17,7 @@
       <transition xmi:type="uml:Transition" xmi:id="_z_IYUMOSEeaTSLzK4yPX3Q" name="FreeSeasonCapacity" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_jrpNoMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_Gt7ZwMOTEeaTSLzK4yPX3Q" name="FreePublicCapacity" source="_oycIUMOQEeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
       <transition xmi:type="uml:Transition" xmi:id="_NukyAMOTEeaTSLzK4yPX3Q" name="OutOfCapacity" source="_egzgcMOQEeaTSLzK4yPX3Q" target="_oycIUMOQEeaTSLzK4yPX3Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9D5H8MOTEeaTSLzK4yPX3Q" name="FreePublicCapacity" source="_jrpNoMOQEeaTSLzK4yPX3Q" target="_egzgcMOQEeaTSLzK4yPX3Q"/>
       <subvertex xmi:type="uml:State" xmi:id="_egzgcMOQEeaTSLzK4yPX3Q" name="Freespace"/>
       <subvertex xmi:type="uml:State" xmi:id="_jrpNoMOQEeaTSLzK4yPX3Q" name="FreeSeasonspace"/>
       <subvertex xmi:type="uml:State" xmi:id="_mA2xgMOQEeaTSLzK4yPX3Q" name="FreeSpaceNoSeason"/>
