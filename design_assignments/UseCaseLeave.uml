@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Fp3-8MEmEeaxWthTkCXynA" name="RootElement">
-  <packagedElement xmi:type="uml:Actor" xmi:id="_GJ90QMEmEeaxWthTkCXynA" name="Attendent"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GJ90QMEmEeaxWthTkCXynA" name="Attendant"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ-bWsEmEeaxWthTkCXynA" name="Control barrier manually">
     <extend xmi:type="uml:Extend" xmi:id="_GJ-bW8EmEeaxWthTkCXynA" extendedCase="_GJ_CcsEmEeaxWthTkCXynA" extensionLocation="_GJ_CdMEmEeaxWthTkCXynA"/>
     <extend xmi:type="uml:Extend" xmi:id="_GJ-bXMEmEeaxWthTkCXynA" extendedCase="_GKA3k8EmEeaxWthTkCXynA" extensionLocation="_GKA3lsEmEeaxWthTkCXynA"/>

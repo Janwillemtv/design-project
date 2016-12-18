@@ -47,7 +47,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrs8EnEeaxWthTkCXynA" name="register breakdown" type="_EyXSsMEnEeaxWthTkCXynA" association="_EyWrsMEnEeaxWthTkCXynA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_EyWrtMEnEeaxWthTkCXynA" name="attendent" type="_EyXSvcEnEeaxWthTkCXynA" association="_EyWrsMEnEeaxWthTkCXynA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_EyWru8EnEeaxWthTkCXynA" name="Security Gueard"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EyWru8EnEeaxWthTkCXynA" name="Security Guard"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_EyWrvMEnEeaxWthTkCXynA" memberEnd="_EyWrv8EnEeaxWthTkCXynA _EyWrwMEnEeaxWthTkCXynA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyWrvcEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyWrvsEnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
@@ -59,7 +59,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXStsEnEeaxWthTkCXynA" name="register fix">
     <include xmi:type="uml:Include" xmi:id="_EyXSt8EnEeaxWthTkCXynA" addition="_EyXSsMEnEeaxWthTkCXynA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSvcEnEeaxWthTkCXynA" name="Attendent"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSvcEnEeaxWthTkCXynA" name="Attendant"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSzcEnEeaxWthTkCXynA" name="Maintanence Officer"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXSzsEnEeaxWthTkCXynA" name="verify availible spaces">
     <include xmi:type="uml:Include" xmi:id="_EyXS0MEnEeaxWthTkCXynA" addition="_EyWEmMEnEeaxWthTkCXynA"/>
@@ -77,5 +77,38 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyX5z8EnEeaxWthTkCXynA" name="Control barrier manually">
     <extend xmi:type="uml:Extend" xmi:id="_EyX50cEnEeaxWthTkCXynA" extendedCase="_EyX5ysEnEeaxWthTkCXynA" extensionLocation="_EyX5zcEnEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_hIoxUMUwEea04LpcnSfYXQ" name="Manager"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jkOC8MUwEea04LpcnSfYXQ" name="Request CarPark overview"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rKvIYMUwEea04LpcnSfYXQ" name="Request maintenance report"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tiaKYMUwEea04LpcnSfYXQ" name="Request security report"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xJgz8MUwEea04LpcnSfYXQ" name="Request malfunctions and response times overview"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4Fl1QMUwEea04LpcnSfYXQ" memberEnd="_4FnDYcUwEea04LpcnSfYXQ _4FnqcMUwEea04LpcnSfYXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4FmcUMUwEea04LpcnSfYXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4FnDYMUwEea04LpcnSfYXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FnDYcUwEea04LpcnSfYXQ" name="request carpark overview" type="_jkOC8MUwEea04LpcnSfYXQ" association="_4Fl1QMUwEea04LpcnSfYXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4FnqcMUwEea04LpcnSfYXQ" name="manager" type="_hIoxUMUwEea04LpcnSfYXQ" association="_4Fl1QMUwEea04LpcnSfYXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4jHewMUwEea04LpcnSfYXQ" memberEnd="_4jIF0cUwEea04LpcnSfYXQ _4jIF0sUwEea04LpcnSfYXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4jHewcUwEea04LpcnSfYXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4jIF0MUwEea04LpcnSfYXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4jIF0cUwEea04LpcnSfYXQ" name="request maintenance report" type="_rKvIYMUwEea04LpcnSfYXQ" association="_4jHewMUwEea04LpcnSfYXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4jIF0sUwEea04LpcnSfYXQ" name="manager" type="_hIoxUMUwEea04LpcnSfYXQ" association="_4jHewMUwEea04LpcnSfYXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5CZbwMUwEea04LpcnSfYXQ" memberEnd="_5CaC0sUwEea04LpcnSfYXQ _5CaC08UwEea04LpcnSfYXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5CaC0MUwEea04LpcnSfYXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5CaC0cUwEea04LpcnSfYXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5CaC0sUwEea04LpcnSfYXQ" name="request security report" type="_tiaKYMUwEea04LpcnSfYXQ" association="_5CZbwMUwEea04LpcnSfYXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5CaC08UwEea04LpcnSfYXQ" name="manager" type="_hIoxUMUwEea04LpcnSfYXQ" association="_5CZbwMUwEea04LpcnSfYXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5jA1gMUwEea04LpcnSfYXQ" memberEnd="_5jA1g8UwEea04LpcnSfYXQ _5jBckMUwEea04LpcnSfYXQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5jA1gcUwEea04LpcnSfYXQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5jA1gsUwEea04LpcnSfYXQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5jA1g8UwEea04LpcnSfYXQ" name="request malfunctions and response times overview" type="_xJgz8MUwEea04LpcnSfYXQ" association="_5jA1gMUwEea04LpcnSfYXQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5jBckMUwEea04LpcnSfYXQ" name="manager" type="_hIoxUMUwEea04LpcnSfYXQ" association="_5jA1gMUwEea04LpcnSfYXQ"/>
   </packagedElement>
 </uml:Model>
