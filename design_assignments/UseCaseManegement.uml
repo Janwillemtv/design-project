@@ -16,6 +16,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWEmMEnEeaxWthTkCXynA" name="request entrance with card">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EyWEmcEnEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_RjonoMUKEea7bf1GbOiNig" addition="_EyXSzsEnEeaxWthTkCXynA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyWEocEnEeaxWthTkCXynA" name="register leave"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_EyWroMEnEeaxWthTkCXynA" memberEnd="_EyWro8EnEeaxWthTkCXynA _EyWrpMEnEeaxWthTkCXynA">
@@ -61,9 +62,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSvcEnEeaxWthTkCXynA" name="Attendant"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_EyXSzcEnEeaxWthTkCXynA" name="Maintanence Officer"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXSzsEnEeaxWthTkCXynA" name="verify availible spaces">
-    <include xmi:type="uml:Include" xmi:id="_EyXS0MEnEeaxWthTkCXynA" addition="_EyWEmMEnEeaxWthTkCXynA"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EyXSzsEnEeaxWthTkCXynA" name="verify availible spaces"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_EyX5xcEnEeaxWthTkCXynA" memberEnd="_EyX5yMEnEeaxWthTkCXynA _EyX5ycEnEeaxWthTkCXynA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EyX5xsEnEeaxWthTkCXynA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EyX5x8EnEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
@@ -78,6 +77,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_EyX5z8EnEeaxWthTkCXynA" name="Control barrier manually">
     <extend xmi:type="uml:Extend" xmi:id="_EyX50cEnEeaxWthTkCXynA" extendedCase="_EyX5ysEnEeaxWthTkCXynA" extensionLocation="_EyX5zcEnEeaxWthTkCXynA"/>
   </packagedElement>
+<<<<<<< Updated upstream
   <packagedElement xmi:type="uml:Actor" xmi:id="_hIoxUMUwEea04LpcnSfYXQ" name="Manager"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_jkOC8MUwEea04LpcnSfYXQ" name="Request CarPark overview"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_rKvIYMUwEea04LpcnSfYXQ" name="Request maintenance report"/>
@@ -110,5 +110,15 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5jA1g8UwEea04LpcnSfYXQ" name="request malfunctions and response times overview" type="_xJgz8MUwEea04LpcnSfYXQ" association="_5jA1gMUwEea04LpcnSfYXQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_5jBckMUwEea04LpcnSfYXQ" name="manager" type="_hIoxUMUwEea04LpcnSfYXQ" association="_5jA1gMUwEea04LpcnSfYXQ"/>
+=======
+  <packagedElement xmi:type="uml:Actor" xmi:id="_fnQ6cMUKEea7bf1GbOiNig" name="manager"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ooki4MUKEea7bf1GbOiNig" name="Retrieve management data"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sY-SYMUKEea7bf1GbOiNig" memberEnd="_sZAuoMUKEea7bf1GbOiNig _sZBVsMUKEea7bf1GbOiNig">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sY_ggMUKEea7bf1GbOiNig" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sZAHkMUKEea7bf1GbOiNig" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sZAuoMUKEea7bf1GbOiNig" name="manager" type="_fnQ6cMUKEea7bf1GbOiNig" association="_sY-SYMUKEea7bf1GbOiNig"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sZBVsMUKEea7bf1GbOiNig" name="request statistics" type="_ooki4MUKEea7bf1GbOiNig" association="_sY-SYMUKEea7bf1GbOiNig"/>
+>>>>>>> Stashed changes
   </packagedElement>
 </uml:Model>

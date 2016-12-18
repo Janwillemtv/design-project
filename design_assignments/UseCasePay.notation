@@ -227,6 +227,24 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3SVecEmEeaxWthTkCXynA" id="(0.11428571428571428,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3SVesEmEeaxWthTkCXynA" id="(0.0,0.5166666666666667)"/>
   </edges>
+<<<<<<< Updated upstream
+=======
+  <edges xmi:type="notation:Connector" xmi:id="_r3SVh8EmEeaxWthTkCXynA" type="Extend_Edge" source="_r3UxcMEmEeaxWthTkCXynA" target="_r3RuLcEmEeaxWthTkCXynA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_r3SViMEmEeaxWthTkCXynA" type="Extend_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_r3SVicEmEeaxWthTkCXynA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r3SVisEmEeaxWthTkCXynA" x="-17" y="29"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_r3SVi8EmEeaxWthTkCXynA" type="Extend_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_r3SVjMEmEeaxWthTkCXynA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r3SVjcEmEeaxWthTkCXynA" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_r3SVjsEmEeaxWthTkCXynA"/>
+    <element xmi:type="uml:Extend" href="UseCasePay.uml#_r3OD1sEmEeaxWthTkCXynA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r3SVj8EmEeaxWthTkCXynA" points="[528, -99, -643984, -643984]$[494, -98, -643984, -643984]$[505, 284, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3SVkMEmEeaxWthTkCXynA" id="(0.0,0.45)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_r3SVkcEmEeaxWthTkCXynA" id="(0.6785714285714286,0.0)"/>
+  </edges>
+>>>>>>> Stashed changes
   <edges xmi:type="notation:Connector" xmi:id="_r3S8QMEmEeaxWthTkCXynA" type="Extend_Edge" source="_r3UxcMEmEeaxWthTkCXynA" target="_r3SVe8EmEeaxWthTkCXynA">
     <children xmi:type="notation:DecorationNode" xmi:id="_r3S8QcEmEeaxWthTkCXynA" type="Extend_KeywordLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-hULYMEmEeaxWthTkCXynA" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -329,7 +347,11 @@
   <edges xmi:type="notation:Connector" xmi:id="_r3UKv8EmEeaxWthTkCXynA" type="Extend_Edge" source="_r3Ux1MEmEeaxWthTkCXynA" target="_r3SVe8EmEeaxWthTkCXynA">
     <children xmi:type="notation:DecorationNode" xmi:id="_r3UKwMEmEeaxWthTkCXynA" type="Extend_KeywordLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_r3UKwcEmEeaxWthTkCXynA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+<<<<<<< Updated upstream
       <layoutConstraint xmi:type="notation:Location" xmi:id="_r3UKwsEmEeaxWthTkCXynA" x="-16" y="34"/>
+=======
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r3UKwsEmEeaxWthTkCXynA" x="-11" y="27"/>
+>>>>>>> Stashed changes
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_r3UKw8EmEeaxWthTkCXynA" type="Extend_StereotypeLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_r3UKxMEmEeaxWthTkCXynA" name="IS_UPDATED_POSITION" booleanValue="true"/>

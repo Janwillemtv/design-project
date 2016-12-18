@@ -84,6 +84,7 @@
     <element xmi:type="uml:UseCase" href="UseCaseEnter.uml#_fIl5MMEfEeaniuUHuIhCbw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fInHUcEfEeaniuUHuIhCbw" x="206" y="-33"/>
   </children>
+<<<<<<< Updated upstream
   <children xmi:type="notation:Shape" xmi:id="__8ksoMEfEeaniuUHuIhCbw" type="UseCase_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="__8ksosEfEeaniuUHuIhCbw" type="UseCase_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="__8kso8EfEeaniuUHuIhCbw" type="UseCase_FloatingNameLabel">
@@ -152,6 +153,8 @@
     <element xmi:type="uml:Actor" href="UseCaseEnter.uml#_wY9i4MEhEeaniuUHuIhCbw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wY-xAcEhEeaniuUHuIhCbw" x="715" y="90"/>
   </children>
+=======
+>>>>>>> Stashed changes
   <children xmi:type="notation:Shape" xmi:id="_b1Cg8MEjEeaniuUHuIhCbw" type="UseCase_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_b1Cg8sEjEeaniuUHuIhCbw" type="UseCase_NameLabel"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_b1Cg88EjEeaniuUHuIhCbw" type="UseCase_FloatingNameLabel">
@@ -266,6 +269,7 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hudvQMEfEeaniuUHuIhCbw" id="(0.5029585798816568,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hudvQcEfEeaniuUHuIhCbw" id="(0.42857142857142855,1.0)"/>
   </edges>
+<<<<<<< Updated upstream
   <edges xmi:type="notation:Connector" xmi:id="_V0084MEhEeaniuUHuIhCbw" type="Extend_Edge" source="_fInHUMEfEeaniuUHuIhCbw" target="_Qa_xcMEhEeaniuUHuIhCbw">
     <children xmi:type="notation:DecorationNode" xmi:id="_V01j8MEhEeaniuUHuIhCbw" type="Extend_KeywordLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZYvIgMEhEeaniuUHuIhCbw" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -412,5 +416,32 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FPeXYsElEeaxWthTkCXynA" points="[396, 118, -643984, -643984]$[412, 280, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FRJLUMElEeaxWthTkCXynA" id="(0.14285714285714285,0.9)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FRJLUcElEeaxWthTkCXynA" id="(0.17857142857142858,0.016666666666666666)"/>
+=======
+  <edges xmi:type="notation:Connector" xmi:id="_7mUbwMUJEea7bf1GbOiNig" type="Include_Edge" source="_NpEZMMEdEeaniuUHuIhCbw" target="_b1Cg8MEjEeaniuUHuIhCbw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7mVC0MUJEea7bf1GbOiNig" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7mVC0cUJEea7bf1GbOiNig" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7mVC0sUJEea7bf1GbOiNig" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7mVC08UJEea7bf1GbOiNig" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7mUbwcUJEea7bf1GbOiNig"/>
+    <element xmi:type="uml:Include" href="UseCaseEnter.uml#_7mFLMMUJEea7bf1GbOiNig"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7mUbwsUJEea7bf1GbOiNig" points="[348, 132, -643984, -643984]$[340, 268, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7my84MUJEea7bf1GbOiNig" id="(0.4556213017751479,0.9864864864864865)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7my84cUJEea7bf1GbOiNig" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_8nBq0MUJEea7bf1GbOiNig" type="Include_Edge" source="_KXYUEMEfEeaniuUHuIhCbw" target="_b1Cg8MEjEeaniuUHuIhCbw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8nBq08UJEea7bf1GbOiNig" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8nBq1MUJEea7bf1GbOiNig" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8nBq1cUJEea7bf1GbOiNig" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8nBq1sUJEea7bf1GbOiNig" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_8nBq0cUJEea7bf1GbOiNig"/>
+    <element xmi:type="uml:Include" href="UseCaseEnter.uml#_8mwlEMUJEea7bf1GbOiNig"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8nBq0sUJEea7bf1GbOiNig" points="[405, 368, -643984, -643984]$[365, 325, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8nY3MMUJEea7bf1GbOiNig" id="(0.20710059171597633,0.015151515151515152)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8nY3McUJEea7bf1GbOiNig" id="(0.6857142857142857,0.95)"/>
+>>>>>>> Stashed changes
   </edges>
 </notation:Diagram>

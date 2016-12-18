@@ -262,6 +262,13 @@
         <element xmi:type="uml:Property" href="classdiagram.uml#_zb2tIMOHEea7bf1GbOiNig"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0grnMcOHEea7bf1GbOiNig"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_pr9vAMUJEea7bf1GbOiNig" type="Property_ClassAttributeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pxJxAMUJEea7bf1GbOiNig" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pxKYEMUJEea7bf1GbOiNig" key="mutable" value="true"/>
+        </eAnnotations>
+        <element xmi:type="uml:Property" href="classdiagram.uml#_prPWQMUJEea7bf1GbOiNig"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pr9vAcUJEea7bf1GbOiNig"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_it_eJMEVEeaniuUHuIhCbw"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_it_eJcEVEeaniuUHuIhCbw"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_it_eJsEVEeaniuUHuIhCbw"/>

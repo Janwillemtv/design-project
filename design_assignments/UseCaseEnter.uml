@@ -7,6 +7,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_NpB88MEdEeaniuUHuIhCbw" name="request entrance with Ticket">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__4t80MEeEeaniuUHuIhCbw" name="ExtensionPoint1"/>
     <include xmi:type="uml:Include" xmi:id="_ht2EMMEfEeaniuUHuIhCbw" addition="_fIl5MMEfEeaniuUHuIhCbw"/>
+    <include xmi:type="uml:Include" xmi:id="_7mFLMMUJEea7bf1GbOiNig" addition="_b1ArwMEjEeaniuUHuIhCbw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_2ZPKoMEeEeaniuUHuIhCbw" memberEnd="_2ZQYwMEeEeaniuUHuIhCbw _2ZQYwcEeEeaniuUHuIhCbw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2ZPxsMEeEeaniuUHuIhCbw" source="org.eclipse.papyrus">
@@ -17,11 +18,11 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_7ugmMMEeEeaniuUHuIhCbw" name="request help">
     <extend xmi:type="uml:Extend" xmi:id="__4susMEeEeaniuUHuIhCbw" extendedCase="_NpB88MEdEeaniuUHuIhCbw" extensionLocation="__4t80MEeEeaniuUHuIhCbw"/>
-    <extend xmi:type="uml:Extend" xmi:id="_LKnyEMEjEeaniuUHuIhCbw" extendedCase="_Ey0p4MEgEeaniuUHuIhCbw" extensionLocation="_LKnyEcEjEeaniuUHuIhCbw"/>
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FONzIMElEeaxWthTkCXynA" name="ExtensionPoint1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_KXXF8MEfEeaniuUHuIhCbw" name="request entrance with card">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aPNvcMEfEeaniuUHuIhCbw" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_8mwlEMUJEea7bf1GbOiNig" addition="_b1ArwMEjEeaniuUHuIhCbw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_OTdvIMEfEeaniuUHuIhCbw" memberEnd="_OTeWMsEfEeaniuUHuIhCbw _OTeWM8EfEeaniuUHuIhCbw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OTeWMMEfEeaniuUHuIhCbw" source="org.eclipse.papyrus">
@@ -30,6 +31,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_OTeWMsEfEeaniuUHuIhCbw" name="request entrance with card" type="_KXXF8MEfEeaniuUHuIhCbw" association="_OTdvIMEfEeaniuUHuIhCbw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_OTeWM8EfEeaniuUHuIhCbw" name="seasonpass holder" type="_CFzxYMEdEeaniuUHuIhCbw" association="_OTdvIMEfEeaniuUHuIhCbw"/>
   </packagedElement>
+<<<<<<< Updated upstream
   <packagedElement xmi:type="uml:UseCase" xmi:id="_fIl5MMEfEeaniuUHuIhCbw" name="print ticket">
     <extend xmi:type="uml:Extend" xmi:id="_V0jQEMEhEeaniuUHuIhCbw" extendedCase="_Qa-jUMEhEeaniuUHuIhCbw" extensionLocation="_V0j3IMEhEeaniuUHuIhCbw"/>
   </packagedElement>
@@ -61,4 +63,8 @@
     <include xmi:type="uml:Include" xmi:id="_sN1UUMEjEeaniuUHuIhCbw" addition="_NpB88MEdEeaniuUHuIhCbw"/>
     <include xmi:type="uml:Include" xmi:id="_BcGo4MEkEeaxWthTkCXynA" addition="_KXXF8MEfEeaniuUHuIhCbw"/>
   </packagedElement>
+=======
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fIl5MMEfEeaniuUHuIhCbw" name="print ticket"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_b1ArwMEjEeaniuUHuIhCbw" name="verify availible spaces"/>
+>>>>>>> Stashed changes
 </uml:Model>
