@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Fp3-8MEmEeaxWthTkCXynA" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GJ90QMEmEeaxWthTkCXynA" name="Attendant"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ-bWsEmEeaxWthTkCXynA" name="Control barrier manually">
+    <extend xmi:type="uml:Extend" xmi:id="_GJ-bW8EmEeaxWthTkCXynA" extendedCase="_GJ_CcsEmEeaxWthTkCXynA" extensionLocation="_GJ_CdMEmEeaxWthTkCXynA"/>
+    <extend xmi:type="uml:Extend" xmi:id="_GJ-bXMEmEeaxWthTkCXynA" extendedCase="_GKA3k8EmEeaxWthTkCXynA" extensionLocation="_GKA3lsEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GJ-bXcEmEeaxWthTkCXynA" name="Customer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ-bYcEmEeaxWthTkCXynA" name="print receipt">
+    <extend xmi:type="uml:Extend" xmi:id="_GJ-bY8EmEeaxWthTkCXynA" extendedCase="_GJ_CcsEmEeaxWthTkCXynA" extensionLocation="_GJ_CdcEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ_CYMEmEeaxWthTkCXynA" name="request exit">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GJ_CYcEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_GJ_CYsEmEeaxWthTkCXynA" addition="_GJ_Cd8EmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GJ_CbcEmEeaxWthTkCXynA" memberEnd="_GJ_CcMEmEeaxWthTkCXynA _GJ_CccEmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GJ_CbsEmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GJ_Cb8EmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GJ_CcMEmEeaxWthTkCXynA" name="attendent" type="_GJ90QMEmEeaxWthTkCXynA" association="_GJ_CbcEmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GJ_CccEmEeaxWthTkCXynA" name="resolve unverified tickets" type="_GJ_CcsEmEeaxWthTkCXynA" association="_GJ_CbcEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ_CcsEmEeaxWthTkCXynA" name="Resolve unverified tickets">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GJ_Cc8EmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GJ_CdMEmEeaxWthTkCXynA" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GJ_CdcEmEeaxWthTkCXynA" name="ExtensionPoint3"/>
+    <include xmi:type="uml:Include" xmi:id="_GJ_CdsEmEeaxWthTkCXynA" addition="_GJ_Cd8EmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GJ_Cd8EmEeaxWthTkCXynA" name="verify ticket">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GJ_CeMEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GKAQhcEmEeaxWthTkCXynA" name="SeasonPass Holder">
+    <generalization xmi:type="uml:Generalization" xmi:id="_GKAQhsEmEeaxWthTkCXynA" general="_GJ-bXcEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GKAQh8EmEeaxWthTkCXynA" memberEnd="_GKAQisEmEeaxWthTkCXynA _GKAQi8EmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GKAQiMEmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GKAQicEmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GKAQisEmEeaxWthTkCXynA" name="request exit" type="_GJ_CYMEmEeaxWthTkCXynA" association="_GKAQh8EmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GKAQi8EmEeaxWthTkCXynA" name="customer" type="_GJ-bXcEmEeaxWthTkCXynA" association="_GKAQh8EmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GKAQksEmEeaxWthTkCXynA" name="print ticket">
+    <extend xmi:type="uml:Extend" xmi:id="_GKAQk8EmEeaxWthTkCXynA" extendedCase="_GJ_CcsEmEeaxWthTkCXynA" extensionLocation="_GJ_Cc8EmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GKA3k8EmEeaxWthTkCXynA" name="request help">
+    <extend xmi:type="uml:Extend" xmi:id="_GKA3lcEmEeaxWthTkCXynA" extendedCase="_GJ_Cd8EmEeaxWthTkCXynA" extensionLocation="_GJ_CeMEmEeaxWthTkCXynA"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GKA3lsEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+</uml:Model>
