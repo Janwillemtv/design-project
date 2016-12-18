@@ -23,6 +23,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_r3NcsMEmEeaxWthTkCXynA" name="request help">
     <extend xmi:type="uml:Extend" xmi:id="_r3NcssEmEeaxWthTkCXynA" extendedCase="_r3NcvcEmEeaxWthTkCXynA" extensionLocation="_r3NcvsEmEeaxWthTkCXynA"/>
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3Ncs8EmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZtncIMUuEea04LpcnSfYXQ" name="ExtensionPoint2"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_r3NctMEmEeaxWthTkCXynA" name="buy seasoncard"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_r3NcusEmEeaxWthTkCXynA" name="Customer"/>
@@ -53,7 +54,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_r3OD1MEmEeaxWthTkCXynA" name="Control barrier manually">
     <extend xmi:type="uml:Extend" xmi:id="_r3OD1cEmEeaxWthTkCXynA" extendedCase="_r3ODzcEmEeaxWthTkCXynA" extensionLocation="_r3ODz8EmEeaxWthTkCXynA"/>
-    <extend xmi:type="uml:Extend" xmi:id="_r3OD1sEmEeaxWthTkCXynA" extendedCase="_r3NcsMEmEeaxWthTkCXynA" extensionLocation="_r3Ncs8EmEeaxWthTkCXynA"/>
+    <extend xmi:type="uml:Extend" xmi:id="_ZtkY0MUuEea04LpcnSfYXQ" extendedCase="_r3NcsMEmEeaxWthTkCXynA" extensionLocation="_ZtncIMUuEea04LpcnSfYXQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_r3Oq0sEmEeaxWthTkCXynA" memberEnd="_r3Oq1cEmEeaxWthTkCXynA _r3Oq1sEmEeaxWthTkCXynA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r3Oq08EmEeaxWthTkCXynA" source="org.eclipse.papyrus">
@@ -62,7 +63,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_r3Oq1cEmEeaxWthTkCXynA" name="give out seasoncards" type="_r3PR68EmEeaxWthTkCXynA" association="_r3Oq0sEmEeaxWthTkCXynA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_r3Oq1sEmEeaxWthTkCXynA" name="attendent" type="_r3Oq38EmEeaxWthTkCXynA" association="_r3Oq0sEmEeaxWthTkCXynA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_r3Oq38EmEeaxWthTkCXynA" name="Attendent"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_r3Oq38EmEeaxWthTkCXynA" name="Attendant"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_r3PR68EmEeaxWthTkCXynA" name="give out seasoncards">
     <include xmi:type="uml:Include" xmi:id="_r3PR7MEmEeaxWthTkCXynA" addition="_r3NctMEmEeaxWthTkCXynA"/>
   </packagedElement>

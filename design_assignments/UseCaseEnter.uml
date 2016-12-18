@@ -49,7 +49,7 @@
     <extend xmi:type="uml:Extend" xmi:id="_nt9hoMEhEeaniuUHuIhCbw" extendedCase="_Qa-jUMEhEeaniuUHuIhCbw" extensionLocation="_nt-IsMEhEeaniuUHuIhCbw"/>
     <extend xmi:type="uml:Extend" xmi:id="_FOMlAMElEeaxWthTkCXynA" extendedCase="_7ugmMMEeEeaniuUHuIhCbw" extensionLocation="_FONzIMElEeaxWthTkCXynA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_wY9i4MEhEeaniuUHuIhCbw" name="Attendent"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_wY9i4MEhEeaniuUHuIhCbw" name="Attendant"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_ztB7sMEhEeaniuUHuIhCbw" memberEnd="_ztCiwsEhEeaniuUHuIhCbw _ztCiw8EhEeaniuUHuIhCbw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ztCiwMEhEeaniuUHuIhCbw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ztCiwcEhEeaniuUHuIhCbw" key="nature" value="UML_Nature"/>
