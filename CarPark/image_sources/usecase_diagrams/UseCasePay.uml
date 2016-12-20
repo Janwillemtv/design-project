@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rVkvQMEmEeaxWthTkCXynA" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_r3LAcMEmEeaxWthTkCXynA" name="SeasonPass Holder">
+    <generalization xmi:type="uml:Generalization" xmi:id="_r3LAccEmEeaxWthTkCXynA" general="_r3NcusEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r3MOkMEmEeaxWthTkCXynA" memberEnd="_r3MOk8EmEeaxWthTkCXynA _r3MOlMEmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r3MOkcEmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r3MOksEmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3MOk8EmEeaxWthTkCXynA" name="attendent" type="_r3Oq38EmEeaxWthTkCXynA" association="_r3MOkMEmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3MOlMEmEeaxWthTkCXynA" name="resolve unverified tickets" type="_r3ODzcEmEeaxWthTkCXynA" association="_r3MOkMEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3MOlcEmEeaxWthTkCXynA" name="print ticket">
+    <extend xmi:type="uml:Extend" xmi:id="_r3MOlsEmEeaxWthTkCXynA" extendedCase="_r3ODzcEmEeaxWthTkCXynA" extensionLocation="_r3ODzsEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r3M1p8EmEeaxWthTkCXynA" memberEnd="_r3M1qsEmEeaxWthTkCXynA _r3M1q8EmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r3M1qMEmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r3M1qcEmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3M1qsEmEeaxWthTkCXynA" name="pay for ticket" type="_r3ODycEmEeaxWthTkCXynA" association="_r3M1p8EmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3M1q8EmEeaxWthTkCXynA" name="customer" type="_r3NcusEmEeaxWthTkCXynA" association="_r3M1p8EmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3NcsMEmEeaxWthTkCXynA" name="request help">
+    <extend xmi:type="uml:Extend" xmi:id="_r3NcssEmEeaxWthTkCXynA" extendedCase="_r3NcvcEmEeaxWthTkCXynA" extensionLocation="_r3NcvsEmEeaxWthTkCXynA"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3Ncs8EmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ZtncIMUuEea04LpcnSfYXQ" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3NctMEmEeaxWthTkCXynA" name="buy seasoncard"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_r3NcusEmEeaxWthTkCXynA" name="Customer"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3NcvcEmEeaxWthTkCXynA" name="verify ticket">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3NcvsEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r3ODwMEmEeaxWthTkCXynA" memberEnd="_r3ODw8EmEeaxWthTkCXynA _r3ODxMEmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r3ODwcEmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r3ODwsEmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3ODw8EmEeaxWthTkCXynA" name="buy seasoncard" type="_r3NctMEmEeaxWthTkCXynA" association="_r3ODwMEmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3ODxMEmEeaxWthTkCXynA" name="customer" type="_r3NcusEmEeaxWthTkCXynA" association="_r3ODwMEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3ODxsEmEeaxWthTkCXynA" name="print receipt">
+    <extend xmi:type="uml:Extend" xmi:id="_r3ODx8EmEeaxWthTkCXynA" extendedCase="_r3ODycEmEeaxWthTkCXynA" extensionLocation="_r3ODysEmEeaxWthTkCXynA"/>
+    <extend xmi:type="uml:Extend" xmi:id="_r3ODyMEmEeaxWthTkCXynA" extendedCase="_r3ODzcEmEeaxWthTkCXynA" extensionLocation="_r3OD0MEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3ODycEmEeaxWthTkCXynA" name="pay for ticket">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3ODysEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <include xmi:type="uml:Include" xmi:id="_r3ODy8EmEeaxWthTkCXynA" addition="_r3NcvcEmEeaxWthTkCXynA"/>
+    <include xmi:type="uml:Include" xmi:id="_r3ODzMEmEeaxWthTkCXynA" addition="_r3MOlcEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3ODzcEmEeaxWthTkCXynA" name="Resolve unverified tickets">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3ODzsEmEeaxWthTkCXynA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3ODz8EmEeaxWthTkCXynA" name="ExtensionPoint2"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r3OD0MEmEeaxWthTkCXynA" name="ExtensionPoint3"/>
+    <include xmi:type="uml:Include" xmi:id="_r3OD0cEmEeaxWthTkCXynA" addition="_r3NcvcEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3OD1MEmEeaxWthTkCXynA" name="Control barrier manually">
+    <extend xmi:type="uml:Extend" xmi:id="_r3OD1cEmEeaxWthTkCXynA" extendedCase="_r3ODzcEmEeaxWthTkCXynA" extensionLocation="_r3ODz8EmEeaxWthTkCXynA"/>
+    <extend xmi:type="uml:Extend" xmi:id="_ZtkY0MUuEea04LpcnSfYXQ" extendedCase="_r3NcsMEmEeaxWthTkCXynA" extensionLocation="_ZtncIMUuEea04LpcnSfYXQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r3Oq0sEmEeaxWthTkCXynA" memberEnd="_r3Oq1cEmEeaxWthTkCXynA _r3Oq1sEmEeaxWthTkCXynA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r3Oq08EmEeaxWthTkCXynA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r3Oq1MEmEeaxWthTkCXynA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3Oq1cEmEeaxWthTkCXynA" name="give out seasoncards" type="_r3PR68EmEeaxWthTkCXynA" association="_r3Oq0sEmEeaxWthTkCXynA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r3Oq1sEmEeaxWthTkCXynA" name="attendent" type="_r3Oq38EmEeaxWthTkCXynA" association="_r3Oq0sEmEeaxWthTkCXynA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_r3Oq38EmEeaxWthTkCXynA" name="Attendant"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_r3PR68EmEeaxWthTkCXynA" name="give out seasoncards">
+    <include xmi:type="uml:Include" xmi:id="_r3PR7MEmEeaxWthTkCXynA" addition="_r3NctMEmEeaxWthTkCXynA"/>
+  </packagedElement>
+</uml:Model>

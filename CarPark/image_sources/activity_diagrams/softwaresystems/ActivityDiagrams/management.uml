@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tRhIgMLcEeaXXd_In2mosg" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_tTpPcMLcEeaXXd_In2mosg" name="Management" node="_B3P2YMLdEeaXXd_In2mosg _HZL08MLdEeaXXd_In2mosg _Y8_C4MLdEeaXXd_In2mosg _aXSdsMLdEeaXXd_In2mosg _fGEhAMLdEeaXXd_In2mosg" group="_u2uLwMLcEeaXXd_In2mosg _--SFMMLcEeaXXd_In2mosg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gThLkMLdEeaXXd_In2mosg" target="_HZL08MLdEeaXXd_In2mosg" source="_B3P2YMLdEeaXXd_In2mosg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hAbU4MLdEeaXXd_In2mosg" target="_Y8_C4MLdEeaXXd_In2mosg" source="_HZL08MLdEeaXXd_In2mosg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hsqv0MLdEeaXXd_In2mosg" target="_aXSdsMLdEeaXXd_In2mosg" source="_Y8_C4MLdEeaXXd_In2mosg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iwu04MLdEeaXXd_In2mosg" target="_fGEhAMLdEeaXXd_In2mosg" source="_aXSdsMLdEeaXXd_In2mosg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_u2uLwMLcEeaXXd_In2mosg" name="Barchester official" node="_B3P2YMLdEeaXXd_In2mosg _HZL08MLdEeaXXd_In2mosg _aXSdsMLdEeaXXd_In2mosg _fGEhAMLdEeaXXd_In2mosg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_--SFMMLcEeaXXd_In2mosg" name="System" node="_Y8_C4MLdEeaXXd_In2mosg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_B3P2YMLdEeaXXd_In2mosg" name="" outgoing="_gThLkMLdEeaXXd_In2mosg" inPartition="_u2uLwMLcEeaXXd_In2mosg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_HZL08MLdEeaXXd_In2mosg" name="Request carpark data" incoming="_gThLkMLdEeaXXd_In2mosg" outgoing="_hAbU4MLdEeaXXd_In2mosg" inPartition="_u2uLwMLcEeaXXd_In2mosg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Y8_C4MLdEeaXXd_In2mosg" name="Return data" incoming="_hAbU4MLdEeaXXd_In2mosg" outgoing="_hsqv0MLdEeaXXd_In2mosg" inPartition="_--SFMMLcEeaXXd_In2mosg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aXSdsMLdEeaXXd_In2mosg" name="Analyse data" incoming="_hsqv0MLdEeaXXd_In2mosg" outgoing="_iwu04MLdEeaXXd_In2mosg" inPartition="_u2uLwMLcEeaXXd_In2mosg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_fGEhAMLdEeaXXd_In2mosg" name="" incoming="_iwu04MLdEeaXXd_In2mosg" inPartition="_u2uLwMLcEeaXXd_In2mosg"/>
+  </packagedElement>
+</uml:Model>
